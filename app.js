@@ -21,8 +21,9 @@ app.use(
     origin: [
       "http://localhost:3000",
       "http://localhost:3001",
+      "http://kiritofy.online",
       "https://soundrex.netlify.app",
-      "https://master--soundrex.netlify.app",
+      "https://master-soundrex.netlify.app",
       process.env.FRONTEND_URL || "http://localhost:3000" // Adicionar URL do frontend do .env
     ],
     credentials: true,
